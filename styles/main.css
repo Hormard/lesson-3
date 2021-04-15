@@ -1,0 +1,351 @@
+/* Basic config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.navigation {
+    background: #000000;
+}
+
+.logo {
+    display: inline-block;
+    padding: 20px 110px 19px;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.span {
+    color: #EC7979;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 625px;
+    padding: 25px 0;
+    align-items:  center;
+}
+
+.nav-tittle {
+    font-size: 15px;
+    color: #FFFFFF;
+    word-spacing: 48px;
+    opacity: 70%;
+}
+
+.nav-tittle::first-letter {
+    text-transform: uppercase;
+}
+
+/* Header ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.header {
+    padding-left: 110px;
+    background: url(../img/town.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.header-container {
+    display: inline-block;
+    width: 544px;
+    padding-top: 108px;
+    vertical-align: top;
+    opacity: 100%;
+}
+
+.main-logo {
+    display: inline-block;
+    margin-bottom: 32px;
+    vertical-align: top;
+    font-weight: normal;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header-tittle {
+    display: inline-block;
+    width: 544px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.tittle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}    
+
+.line {
+    width: 64px;
+    height: 1px;
+    margin-bottom: 39px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.descrition {
+    display: inline-block;
+    width: 282px;
+    margin-bottom: 39px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF; ;
+    opacity: 80%;
+}
+
+.download {
+    display: inline-block;
+    width: 135px;
+    height: 42px;
+    margin-right: 200px;
+    margin-bottom: 110px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: unset;
+    border: #FFFFFF solid 1px;
+    cursor: pointer;
+}
+
+/* Registration window ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.registration-container {
+    display: inline-block;
+    width: 370px;
+    margin: 110px 0px 0px 265px;
+    padding-top: 22px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.registration {
+    padding: 0px 59px;
+}
+
+.registration-tittle {
+    display: inline-block;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+.subtittle {
+    font-size: 20px;
+}
+
+.registration-info {
+    margin-bottom: 16px;
+    font-size: 14px;
+    text-align: unset;
+    color: #BDBDBD;
+}
+
+.registration-field {
+    width: 252px;
+    margin-bottom: 19px;
+    border: none;
+    border-bottom: #BDBDBD solid 1px;
+}
+
+.registration-btn {
+    width: 370px;
+    height: 54px;
+    margin-top: 42px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.red-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background: #EC7979 ;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.social {
+    background: #F8EFEF;
+}
+
+.social-description {
+    display: inline-block;
+    width: 365px;
+    padding: 14px 0px 17px 111px;
+
+}
+
+.social-tittle {
+    margin-bottom: 14px;
+}
+
+.social-text {
+    vertical-align: top;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-icons {
+    display: inline-block;
+    width: 684px;
+    height: 42px;
+    margin: 34px 0px 0px 129px;
+    vertical-align: top;
+    background:url(../img/social-icons.png) no-repeat center; 
+}
+
+/* Features ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.features {
+    padding: 100px 0px 125px 111px ;
+}
+
+.feature-menu {
+    display: inline-block;
+    padding-top: 25px;
+    margin-right: 118px;
+}
+
+.square {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.square-description {
+    display: inline-block;
+    padding-top: 45px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.red-square {
+    background: #EC7979;
+}
+
+.black-square {
+    background: #333333;
+}
+
+.feature-description {
+    display: inline-block;
+    width: 572px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.feature-tittle {
+    display: inline-block;
+    margin-bottom: 58px;
+    padding-top: 26px;
+    text-transform: uppercase;
+}
+
+.feature-text {
+    display: inline-block;
+    padding-bottom: 14px;
+    font-size: 14px;
+}
+
+.download-btn {
+    width: 135px;
+    height: 42px;
+    margin-top: 89px;
+}
+
+.grey-town {
+    display: inline-block;
+    width: 320px;
+    height: 253px;
+    margin-left: 50px;
+    vertical-align: top;
+    background: url(../img/grey-town.png);
+}
+
+/* Our process ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+.our-process {
+    text-align: center;
+}
+
+.our-process-tittle {
+    padding-top: 60px;
+    margin-bottom: 34px;
+}
+
+.red-line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 34px;
+    background-color: #e72424;
+    border: none;
+}
+
+.our-process-subtittle {
+    padding-bottom: 68px;
+    color: #86878B;
+    font-size: 14px;
+}
+
+.our-process-card {
+    display: inline-block;
+    width: 350px;
+    padding-bottom: 96px;
+}
+
+.middle-card {
+    margin: 0px 36px 0px 23px;
+}
+
+.icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.card-tittle {
+    margin-bottom: 16px;
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.lamp {
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.keyboard {
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.lightning {
+    background: url(../img/lightning.png) no-repeat center;
+}
