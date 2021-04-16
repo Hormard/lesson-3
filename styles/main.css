@@ -11,7 +11,7 @@ body {
 
 /* Navigation ----------------------------------------------------------
 ---------------------------------------------------------------------------*/
-.navigation {
+.nav {
     background: #000000;
 }
 
@@ -30,7 +30,7 @@ body {
     text-transform: uppercase;
 }
 
-.nav {
+.navigation {
     display: inline-block;
     margin-left: 625px;
     padding: 25px 0;
@@ -41,18 +41,21 @@ body {
     font-size: 15px;
     color: #FFFFFF;
     word-spacing: 48px;
+    text-decoration: none;
     opacity: 70%;
+    list-style: none;
 }
 
-.nav-tittle::first-letter {
-    text-transform: uppercase;
+
+ul.nav-tittle li {
+    display: inline;
 }
 
 /* Header ----------------------------------------------------------
 ---------------------------------------------------------------------------*/
 .header {
     padding-left: 110px;
-    background: url(../img/town.jpg) no-repeat;
+    background: url(../img/background/town.jpg) no-repeat;
     background-size: 100%;
 }
 
@@ -122,6 +125,7 @@ body {
     color: #FFFFFF;
     background-color: unset;
     border: #FFFFFF solid 1px;
+    outline: none;
     cursor: pointer;
 }
 
@@ -143,6 +147,7 @@ body {
 .registration-tittle {
     display: inline-block;
     margin-bottom: 44px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -162,6 +167,7 @@ body {
     margin-bottom: 19px;
     border: none;
     border-bottom: #BDBDBD solid 1px;
+    outline: none;
 }
 
 .registration-btn {
@@ -169,6 +175,7 @@ body {
     height: 54px;
     margin-top: 42px;
     border-radius: 0px 0px 8px 8px;
+    outline: none;
 }
 
 .red-button {
@@ -215,6 +222,10 @@ body {
     word-spacing: 32.7px;
 }
 
+ul.social-icons li {
+    display: inline;
+}
+
 .icon {
     display: inline-block;
     height: 42px;
@@ -222,31 +233,31 @@ body {
 }
 
 .facebook {
-    background: url(../img/facebook.png) no-repeat;
+    background: url(../img/icons/facebook.png) no-repeat;
 }
 
 .twitter {
-    background: url(../img/twitter.png) no-repeat;
+    background: url(../img/icons/twitter.png) no-repeat;
 }
 
 .google {
-    background: url(../img/google.png) no-repeat;
+    background: url(../img/icons/google.png) no-repeat;
 }
 
 .pinterest {
-    background: url(../img/pinterest.png) no-repeat;
+    background: url(../img/icons/pinterest.png) no-repeat;
 }
 
 .instagram {
-    background: url(../img/instagram.png) no-repeat;
+    background: url(../img/icons/instagram.png) no-repeat;
 }
 
 .stumbleupon {
-    background: url(../img/stumbleupon.png) no-repeat;
+    background: url(../img/icons/stumbleupon.png) no-repeat;
 }
 
-.wifi {
-    background: url(../img/wifi.png) no-repeat;
+.rss {
+    background: url(../img/icons/rss.png) no-repeat;
 }
 
 /* Features ----------------------------------------------------------
@@ -274,12 +285,13 @@ body {
     display: inline-block;
     padding-top: 45px;
     font-size: 15px;
+    font-weight: bold;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
 .red-square {
-    background: #EC7979;
+    background: #ca1d1d;
 }
 
 .black-square {
@@ -310,6 +322,7 @@ body {
     width: 135px;
     height: 42px;
     margin-top: 89px;
+    outline: none;
 }
 
 .grey-town {
@@ -374,13 +387,13 @@ body {
 }
 
 .lamp {
-    background: url(../img/lamp.png) no-repeat center;
+    background: url(../img/icons/lamp.png) no-repeat center;
 }
 
 .keyboard {
-    background: url(../img/keyboard.png) no-repeat center;
+    background: url(../img/icons/keyboard.png) no-repeat center;
 }
 
 .lightning {
-    background: url(../img/lightning.png) no-repeat center;
+    background: url(../img/icons/lightning.png) no-repeat center;
 }
