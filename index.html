@@ -10,32 +10,38 @@
     <title>Axit</title>
 </head>
 <body>
-<div class="navigation"> 
+<nav class="nav"> 
     <h3 class="logo">Ax<span class="span">it</span></h3>
-    <nav class="nav">
-        <p class="nav-tittle">Feautures about pricing reviews contact</p>
-    </nav>
-</div>
+    <div class="navigation">
+        <ul class="nav-tittle">
+            <li><a class="nav-tittle" href="#featutres">Feautures</a></li>
+            <li><a class="nav-tittle" href="#about">About</a></li>
+            <li><a class="nav-tittle" href="#">Pricing</a></li>
+            <li><a class="nav-tittle" href="#">Reviews</a></li>
+            <li><a class="nav-tittle" href="#">Contact</a></li> 
+        </ul>
+    </div>
+</nav>
     <header class="header">
         <div class="header-container">
             <h1 class="main-logo">Ax<span class="span">it</span></h1>
             <h2 class="header-tittle tittle">Modern axure template for beatifull prototypes</h2>
             <hr class="line">
             <p class="descrition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
-            <input class="download" type="submit" name="download" value="Download"/>
+            <input class="download" type="button" name="download" value="Download"/>
         </div>
-        <div class="registration-container">
+        <form action="#" method="post" class="registration-container">
             <div class="registration">
                 <h4 class="registration-tittle subtittle">Try your <span class="span">free</span> trial today</h4>
-                <p class="registration-info">Name</p>
-                <input class="registration-field" type="text" name="Username">
-                <p class="registration-info">Email</p>
-                <input class="registration-field" type="text" name="Email">            
-                <p class="registration-info">Password</p>
-                <input class="registration-field" type="password" name="Password">
+                <label for="name" class="registration-info">Name</label>
+                <input id="name" class="registration-field" type="text" required>
+                <label for="email" class="registration-info">Email</label>
+                <input id="email" class="registration-field" type="email" required>            
+                <label for="password" class="registration-info">Password</label>
+                <input id="password" class="registration-field" type="password" required>
             </div>      
             <input class="registration-btn red-button" type="submit" name="Get started" value="Get started"/>
-        </div> 
+        </form> 
     </header>
     <main class="main">
         <div class="social">
@@ -43,26 +49,26 @@
                 <h4 class="social-tittle subtittle">Social Media</h4>
                 <p class="social-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
             </div>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/" class="icon facebook"></a>
-                <a href="https://twitter.com/?lang=ru" class="icon twitter"></a>
-                <a href="https://www.google.by/" class="icon google"></a>
-                <a href="https://www.pinterest.com/" class="icon pinterest"></a>
-                <a href="https://www.instagram.com/?hl=ru" class="icon instagram"></a>
-                <a href="https://www.stumbleupon.com/" class="icon stumbleupon"></a>
-                <a href="#" class="icon wifi"></a>
-            </div>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/" target="_blank" class="icon facebook"></a></li>
+                <li><a href="https://twitter.com/?lang=ru" target="_blank" class="icon twitter"></a></li>
+                <li><a href="https://www.google.by/" target="_blank" class="icon google"></a></li>
+                <li><a href="https://www.pinterest.com/" target="_blank" class="icon pinterest"></a></li>
+                <li><a href="https://www.instagram.com/?hl=ru" target="_blank" class="icon instagram"></a></li>
+                <li><a href="https://www.stumbleupon.com/" target="_blank" class="icon stumbleupon"></a></li>
+                <li><a href="#" class="icon rss"></a></li>
+            </ul>
         </div>
-        <div class="features">
+        <div id="featutres" class="features">
             <div class="feature-menu">
                 <div class="red-square square">
-                    <h4 class="square-description">Tab 1</h4>
+                    <p class="square-description">Tab 1</p>
                 </div>
                 <div class="black-square square">
-                    <h4 class="square-description">Tab 2</h4>
+                    <p class="square-description">Tab 2</p>
                 </div>
                 <div class="black-square square">
-                    <h4 class="square-description">Tab 3</h4>
+                    <p class="square-description">Tab 3</p>
                 </div>
             </div>
             <div class="feature-description">
@@ -73,7 +79,7 @@
             </div>
             <div class="grey-town"></div>
         </div>
-        <div class="our-process">
+        <div id="about" class="our-process">
             <h2 class="our-process-tittle tittle">Why this is awesome</h2>
             <hr class="red-line">
             <p class="our-process-subtittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
